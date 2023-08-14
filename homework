@@ -1,0 +1,45 @@
+for num in range(101):
+    if num % 2 == 1:
+        print(f"{num:3} - Odd")
+    else:
+        print(f"{num:3} - Even")
+
+
+
+
+
+
+
+
+
+your_age = int(input("Enter your age: "))
+father_age = int(input("Enter your father's age: "))
+
+if father_age == 2 * your_age:
+    print("Bingo")
+else:
+    print("Mouse")
+
+
+
+age = int(input("Enter your age: "))
+gender = input("Enter your gender (man or woman):")
+
+if gender == "man" and age > 65:
+    print("The pension belongs to you")
+elif gender == "woman" and age > 60:
+    print("The pension belongs to you")
+else:
+    print("You are not eligible for pension yet")
+
+
+
+
+
+
+education = input("What is your current education status? ")
+
+if "goa" in education.lower() and "student" in education.lower():
+    print("You're best!")
+else:
+    print("Thank you for sharing your education status.") 
